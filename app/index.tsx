@@ -23,7 +23,7 @@ const MainPage = () => {
     <SafeAreaView style={{ flex: 1, backgroundColor: "blue" }}>
       <UnityView
         ref={unityRef}
-        style={{ flex: 1, width: "100px", height: "100px" }}
+        style={{ flex: 1 }}
       />
     </SafeAreaView>
   );
